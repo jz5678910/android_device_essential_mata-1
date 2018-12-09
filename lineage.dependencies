@@ -1,7 +1,8 @@
 [
   {
-    "repository": "android_kernel_essential_msm8998",
+    "repository": "0ctobot/neutrino_kernel_essential_msm8998",
     "target_path": "kernel/essential/msm8998"
+    "branch": "lineage-16.0/neutrino-msm-mata-4.4"
   },
   {
     "repository": "android_packages_resources_devicesettings",
