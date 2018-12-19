@@ -173,7 +173,11 @@ TARGET_RECOVERY_UI_MARGIN_WIDTH := 64
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2018-11-05
+<<<<<<< HEAD
+VENDOR_SECURITY_PATCH := 2018-12-05
+=======
+VENDOR_SECURITY_PATCH := 2018-12-05
+>>>>>>> 3c462087... mata: Update vendor security patch level
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
