@@ -121,3 +121,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+    
+# Vol steps
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.vc_call_vol_steps=15 \
+    ro.config.media_vol_steps=25 \
+    audio.safemedia.bypass=true
